@@ -1,0 +1,22 @@
+{
+  "name": "forkify-application",
+  "version": "1.0.0",
+  "description": "Recipe application built with Vanilla JavaScript",
+  "author": "Khalid Musaraf",
+  "license": "ISC",
+  "type": "module",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.16.4",
+    "parcel": "^2.16.4",
+    "sass": "^1.103.1"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "fractional": "^1.0.0",
+    "regenerator-runtime": "^0.13.7"
+  }
+}
